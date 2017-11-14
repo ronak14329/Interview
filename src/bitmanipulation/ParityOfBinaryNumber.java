@@ -28,4 +28,7 @@ public class ParityOfBinaryNumber {
 	      
 	}
 
-}
+}//time complexity is O(n) where n is the word size
+// space complexity is O(1) 
+
+      

@@ -12,7 +12,7 @@ public class SwapBits {
 	/**
 	 * @param args
 	 * Swap bits in a given number and i and j are index of bits to be swapped.
-	 * T.C = O(1); 
+	 * T.C = O(1);  
 	 */ 
 	
 	

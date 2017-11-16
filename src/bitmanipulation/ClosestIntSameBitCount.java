@@ -26,6 +26,11 @@ public class ClosestIntSameBitCount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      System.out.println(closestSameBit(8));
+     int t = 7;
+     int p = 7;
+     int o = t | p;
+     
+     System.out.println("output = "+o);
 	}
 
 }

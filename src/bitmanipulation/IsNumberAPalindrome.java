@@ -27,7 +27,7 @@ public class IsNumberAPalindrome {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(isPalindrome(525));
+System.out.println(isPalindrome(525 ));
 	}
 
 }

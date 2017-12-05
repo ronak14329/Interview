@@ -15,7 +15,7 @@ public class LookAndSay {
 	/**
 	 * @param args
 	 */
-	
+
 	public static String lookAndSay( int n){
 		String s ="1";
 		List<String > res = new ArrayList<String>();
@@ -25,7 +25,7 @@ public class LookAndSay {
 		}
 		return s;
 	}
-	
+
 	public static String nextNumber(String s){
 		StringBuilder sb = new StringBuilder();
 		for(int i =0;i<s.length();i++){
@@ -41,7 +41,7 @@ public class LookAndSay {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      System.out.println(lookAndSay(6));
+		System.out.println(lookAndSay(6));
 	}
 
 }

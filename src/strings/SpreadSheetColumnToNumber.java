@@ -12,7 +12,7 @@ public class SpreadSheetColumnToNumber {
 	/**
 	 * @param args
 	 */
-	
+
 	public static int excelToNumber(String s){
 		int res= 0;
 		for( int i =0;i<s.length();i++){
@@ -22,7 +22,7 @@ public class SpreadSheetColumnToNumber {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(excelToNumber("AA"));
+		System.out.println(excelToNumber("AA"));
 	}
 
 }

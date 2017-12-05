@@ -12,15 +12,15 @@ public class RomanToInteger {
 	/**
 	 * @param args
 	 */
-	
+
 	public static int romanToInteger(String s){
 		// create a array to save the values
-		
+
 		int [] nums = new int[s.length()];
 		for(int i =0 ; i<s.length();i++){
 			switch(s.charAt(i)){
 			case 'M' : nums[i] =1000;
-		              break;
+			break;
 			case 'D' : nums[i] =500;
 			break;
 			case 'C' : nums[i] =100;
@@ -48,7 +48,7 @@ public class RomanToInteger {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(romanToInteger("IX"));
+		System.out.println(romanToInteger("IX"));
 	}
 
 }

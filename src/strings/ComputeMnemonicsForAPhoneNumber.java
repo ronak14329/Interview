@@ -17,7 +17,7 @@ public class ComputeMnemonicsForAPhoneNumber {
 	/**
 	 * @param args
 	 */
-	
+
 	public static List<String> letterCombination(String digits){
 		HashMap<Character, char[]> map = new HashMap<Character, char[]>();
 		map.put('2', new char[]{'a','b','c'});
@@ -28,32 +28,32 @@ public class ComputeMnemonicsForAPhoneNumber {
 		map.put('7', new char[]{'p','q','r','s'});
 		map.put('8', new char[]{'t','u','v'});
 		map.put('9', new char[]{'w','x','y','z'});
-		
+
 		List<String> result = new ArrayList<String>();
 		if(digits.equals(""))return result;
 		helper(result, new StringBuilder(),digits, 0,map);
 		return result;
 	}
-	
+
 	public static void helper(List<String> result,StringBuilder sb, String digits, int index, HashMap<Character, char[]> map){
-	 if(index >= digits.length()){
-		 result.add(sb.toString());
-		 return;
-	 }
-	 char c = digits.charAt(index);
-	 char[] arr = map.get(c);
-	 for(int i =0;i<arr.length;i++){
-		 sb.append(arr[i]);
-		 helper(result,sb, digits, index+1,map);
-		 sb.deleteCharAt(sb.length()-1);
-	 }
+		if(index >= digits.length()){
+			result.add(sb.toString());
+			return;
+		}
+		char c = digits.charAt(index);
+		char[] arr = map.get(c);
+		for(int i =0;i<arr.length;i++){
+			sb.append(arr[i]);
+			helper(result,sb, digits, index+1,map);
+			sb.deleteCharAt(sb.length()-1);
+		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    List<String> res = letterCombination("234");
-    for(String s :res){
-    	System.out.print("," +s);
-    }
+		List<String> res = letterCombination("234");
+		for(String s :res){
+			System.out.print("," +s);
+		}
 	}
 
 }

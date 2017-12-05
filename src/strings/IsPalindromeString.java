@@ -12,7 +12,7 @@ public class IsPalindromeString {
 	/**
 	 * @param args
 	 */
-	
+
 	public static boolean isPalindrome(String s){
 		if(s.length()== 0 || s.length()==1 || s == null)return true;
 		int i =0;
@@ -27,7 +27,7 @@ public class IsPalindromeString {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(isPalindrome("Canac"));
+		System.out.println(isPalindrome("Canac"));
 	}
 
 }

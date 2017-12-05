@@ -12,7 +12,7 @@ public class ReplaceAndRemove {
 	/**
 	 * @param args
 	 */
-	
+
 	public static String replaceAndRemove(String s){
 		//String res = "";
 		StringBuilder sb = new StringBuilder();
@@ -28,11 +28,11 @@ public class ReplaceAndRemove {
 		//sb.reverse();
 		return sb.toString();
 	}
-	
-	
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(replaceAndRemove("aabcd"));
+		System.out.println(replaceAndRemove("aabcd"));
 	}
 
 }

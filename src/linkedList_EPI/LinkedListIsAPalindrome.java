@@ -24,7 +24,7 @@ public class LinkedListIsAPalindrome {
 			fast = fast.next.next;
 		}
 		if(fast!=null){ // incase when u have odd number of node 
-			slow = slow.next;
+			slow = slow.next; 
 		}
 		slow = (ReverseALinkedList.reverse(slow));
 		fast = head;

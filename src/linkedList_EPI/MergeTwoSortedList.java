@@ -33,7 +33,22 @@ public class MergeTwoSortedList {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+MergeTwoSortedList ms = new MergeTwoSortedList();
+       ListNode head = new ListNode(5);
+       head.next = new ListNode(7);
+       head.next.next = new ListNode(9);
+       
+       ListNode head1 = new ListNode(2);
+       head1.next = new ListNode(4);
+       head1.next.next = new ListNode(8);
+       
+     ListNode res =   ms.mergeTwoSortedList(head, head1);
+     
+     while(res!=null){
+    	 System.out.print(res.val +"->");
+    	 res = res.next;
+     }
+     System.out.print("null");
 	}
 
 }

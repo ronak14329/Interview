@@ -5,8 +5,7 @@ package tree;
 
 /**
  * @author Ronak Goyal
- * Given a binary tree, find the leftmost value in the last row of the tree.
-
+ * 
 Example 1:
 Input:
 

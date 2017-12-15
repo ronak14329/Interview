@@ -8,8 +8,7 @@ import java.util.List;
 
 /**
  * @author Ronak Goyal
- * You need to find the largest value in each row of a binary tree.
-
+ *
 Example:
 Input: 
 

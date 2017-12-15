@@ -9,9 +9,8 @@ import java.util.List;
 
 /**
  * @author Ronak Goyal
- *   Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
+  contain duplicates, nums, return all possible subsets (the power set).
 
-Note: The solution set must not contain duplicate subsets.
 
 For example,
 If nums = [1,2,2], a solution is:

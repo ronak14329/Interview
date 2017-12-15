@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * @author Ronak Goyal
- *Given a collection of distinct numbers, return all possible permutations.
+ *all possible permutations.
 
 For example,
 [1,2,3] have the following permutations:

@@ -31,6 +31,7 @@ public class SnakesString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 System.out.println(snakesString("Hello World"));
+System.out.println(snakesString("PAYPALISHIRING"));
 	}
 
 }

@@ -20,14 +20,14 @@ public class HeapSort {
 		for(int i =N;i>0;i--){
 			swap(arr,0,i);
 			N= N-1;
-			maxheap(arr,0);
+			minheap(arr,0);
 		}
 	}
 	
 	public static void heapify(int []arr){
 		N= arr.length-1;
 		for(int i =N/2;i>=0;i--){
-			maxheap(arr,i);
+			minheap(arr,i);
 		}
 	}
 	
@@ -38,8 +38,8 @@ public class HeapSort {
 	}
 	
 	public static void maxheap(int []arr, int i){
-		int left =  2*i;
-		int right = 2*i+1;
+		int left =  2*i+1;
+		int right = 2*i+2;
 		int max = i;
 		if(left <= N && arr[left] >arr[max]){
 			max = left;
@@ -53,8 +53,8 @@ public class HeapSort {
 		}
 	}
 	public static void minheap(int []arr, int i ){
-		int left = 2*i;
-		int right = 2*i +1;
+		int left = 2*i+1;
+		int right = 2*i +2;
 		int min = i;
 		if(left <= N && arr[left]<arr[min]){
 			min = left;
